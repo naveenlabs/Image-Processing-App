@@ -181,7 +181,7 @@ The `/assets/` folder contains screenshot galleries for all core and extension f
 - **[extension-demo5.png](Assets/extension-demo5.png)** – Extension 5: Single-Paddle Pong
 - **[extension-demo6.png](Assets/extension-demo6.png)** – Extension 6: Hand Keypoints + Emoji Overlay
 
-View all images in the [/assets folder](Assets/)
+View all images in the [/Assets folder](Assets/)
 
 ## Documentation
 
