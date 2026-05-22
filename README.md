@@ -55,7 +55,7 @@ python3 -m http.server 8000
 http://localhost:8000
 ```
 
-**Note:** CORS security requires a local server. Opening `index.html` directly (`file://`) will not work.
+**⚠️ Important:** CORS security requires a local server. Opening `index.html` directly (`file://`) will not work.
 
 **4. Grant webcam access:**
 Allow browser permission to access your webcam when prompted.
@@ -168,6 +168,20 @@ Dynamic emoji overlay changes based on detected gesture. Smoothing algorithm ave
 - Glitch/Cyberpunk: random channel offset (pixel-level manipulation)
 - Neon outline filter: edge detection with bright color overlay
 - X-ray filter: inverse grayscale with color channel separation
+
+## Assets
+
+The `/assets/` folder contains screenshot galleries for all core and extension features:
+
+- **[main-grid.png](Assets/main-grid.png)** – Main interface screenshot showing all 13 core processing tasks
+- **[extension-demo1.png](Assets/extension-demo1.png)** – Extension 1: Glitch/Cyberpunk effect
+- **[extension-demo2.png](Assets/extension-demo2.png)** – Extension 2: Hand Gesture Filters
+- **[extension-demo3.png](Assets/extension-demo3.png)** – Extension 3: Blink Reaction Game
+- **[extension-demo4.png](Assets/extension-demo4.png)** – Extension 4: Snapchat-Style Filters
+- **[extension-demo5.png](Assets/extension-demo5.png)** – Extension 5: Single-Paddle Pong
+- **[extension-demo6.png](Assets/extension-demo6.png)** – Extension 6: Hand Keypoints + Emoji Overlay
+
+View all images in the [/assets folder](assets/)
 
 ## Documentation
 
