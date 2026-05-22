@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>graphicsProgramming - Coursera</title>
+
+    <!-- Load p5.js -->
+    <script src="libraries/p5.min.js"></script>
+
+    <!-- Load object detection libraries -->
+    <script src="libraries/objectdetect.js"></script>
+    <script src="libraries/objectdetect.frontalface.js"></script>
+
+    <!-- Load ml5.js -->
+    <script src="libraries/ml5.min.js"></script>  
+
+    <!-- Link to your main sketch file -->
+    <script src="main.js"></script>
+    <script src="extensions.js"></script>
+
+    <!-- CSS Styling -->
+    <style>
+      /* Dark background, light text */
+      body {
+        margin: 0;
+        padding: 0;
+        background: #2D2D2D; 
+        color: #ECECEC;     
+        font-family: "Helvetica Neue", Arial, sans-serif;
+      }
+
+      /* Center the canvas horizontally */
+      canvas {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      }
+
+      /* Style for p5 DOM createButton elements */
+      button {
+        position: absolute;
+        background: #444;
+        color: #fff;
+        border: 1px solid #888;
+        border-radius: 4px;
+        padding: 8px 12px;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: inherit;
+      }
+      button:hover {
+        background: #555;
+      }
+
+      /* Style for p5 DOM sliders */
+      input[type=range] {
+        appearance: none; 
+        width: 80px;
+        height: 4px;
+        background: #666;
+        border-radius: 4px;
+        outline: none;
+        margin-right: 10px;
+      }
+      input[type=range]::-webkit-slider-thumb {
+        appearance: none;
+        appearance: none;
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ddd;
+        cursor: pointer;
+        border: 1px solid #999;
+      }
+      input[type=range]::-moz-range-thumb {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #ddd;
+        cursor: pointer;
+        border: 1px solid #999;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- p5.js will create the canvas and DOM elements from sketch.js -->
+  </body>
+</html>
